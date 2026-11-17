@@ -105,7 +105,7 @@ plt.savefig(FIG / "06_wind_scatter.png", dpi=150)
 plt.show()
 plt.close()
 
-print("Сводка по погоде Уфа 2026 ===")
+print("=== Сводка по погоде Уфа 2026 ===")
 print("дней:", len(df))
 print("средняя разница факт/ощущ:", round(mean_abs_diff, 1), "°C")
 print("макс отклонение:", round(df["temp_diff"].abs().max(), 1), "°C")
